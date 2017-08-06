@@ -136,6 +136,8 @@ static XMGDownLoadManager *_shareInstance;
 
 }
 
-
+- (void)resumeAll {
+    
+}
 
 @end
