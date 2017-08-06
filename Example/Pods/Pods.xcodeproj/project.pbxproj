@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		12EA6D59158E0996230A1B453C472B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		18972999F63B2061A694E3314E6A8477 /* Pods-XMGDownLoad_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE598BF73BA0CA158245D1CE03130263 /* Pods-XMGDownLoad_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C3E317B1FD6E6546EF2C5EFDD8FE11A /* XMGDownLoad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFC393E8EBE2F15DD76A27F9874421 /* XMGDownLoad-dummy.m */; };
+		20CC5A7B4258165180A953B27CCA4364 /* NSString+XMGDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAED5232C62FFC3C5747B5D54C7D35A /* NSString+XMGDownLoader.m */; };
+		345B30CD29EFA4CDEEE7D4634FF0657E /* NSString+XMGDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = D673501F400D1F6EF214033FF01DBB6C /* NSString+XMGDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382C3AF8DC6348464CC731AA32C1DF60 /* XMGDownLoad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFC393E8EBE2F15DD76A27F9874421 /* XMGDownLoad-dummy.m */; };
+		3B0F7BE298AE746C58BE5C082640F635 /* XMGDownLoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DA1E11A2F01FCD213015EE500D5458 /* XMGDownLoadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41A0EB9970B1C01E3CDE180027499794 /* XMGDownLoad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADA6A18046D3827A157D0D0065287D9 /* XMGDownLoad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52AB84A42CCEE4CF28813E9AE2B0DE42 /* Pods-XMGDownLoad_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F769576EFC2827B9B9835A622E29E2C /* Pods-XMGDownLoad_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		646DFEEE509E9F97D784F7374DC348B9 /* XMGDownLoad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADA6A18046D3827A157D0D0065287D9 /* XMGDownLoad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70B4C76E86023DE7A15B614362089826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8503B9AB5AA611997BAB4F67C018FDAB /* XMGDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = A10BA193C221F8EB068F79ECEF493385 /* XMGDownLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B8EAE5174A045674A26DA007488AA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8CCD337D4CDBB1E8F5647AFB756C3DC9 /* Pods-XMGDownLoad_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B52772241D5FC46E79F6ACD8C3A03DE /* Pods-XMGDownLoad_Example-dummy.m */; };
+		9545535B0FC54619D87D393387AF2490 /* XMGDownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CD31968CD52F8DB6A5F13988717292 /* XMGDownLoaderFileTool.m */; };
 		B7B2BEC3AA7D0E9BE191884BFFE5F957 /* Pods-XMGDownLoad_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E1FEF93F596EF4A1AC47304419D37B /* Pods-XMGDownLoad_Tests-dummy.m */; };
-		BC8573BE1F376A0500CB5D75 /* NSString+XMGDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8573B61F376A0500CB5D75 /* NSString+XMGDownLoader.h */; };
-		BC8573BF1F376A0500CB5D75 /* NSString+XMGDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8573B71F376A0500CB5D75 /* NSString+XMGDownLoader.m */; };
-		BC8573C01F376A0500CB5D75 /* XMGDownLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8573B81F376A0500CB5D75 /* XMGDownLoader.h */; };
-		BC8573C11F376A0500CB5D75 /* XMGDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8573B91F376A0500CB5D75 /* XMGDownLoader.m */; };
-		BC8573C21F376A0500CB5D75 /* XMGDownLoaderFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8573BA1F376A0500CB5D75 /* XMGDownLoaderFileTool.h */; };
-		BC8573C31F376A0500CB5D75 /* XMGDownLoaderFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8573BB1F376A0500CB5D75 /* XMGDownLoaderFileTool.m */; };
-		BC8573C41F376A0500CB5D75 /* XMGDownLoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8573BC1F376A0500CB5D75 /* XMGDownLoadManager.h */; };
-		BC8573C51F376A0500CB5D75 /* XMGDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8573BD1F376A0500CB5D75 /* XMGDownLoadManager.m */; };
+		C4915465A191F6A9818F6EE266A963D0 /* XMGDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC6DF26B4FEBDCB33890765F5E20A6 /* XMGDownLoader.m */; };
+		C7369E17D3657BEB7430F6A207A5D35F /* XMGDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97745CCC06C2FFE5FFCC9900ED6F5E68 /* XMGDownLoadManager.m */; };
+		E296378F2AB091A982D7608F2B6F6355 /* XMGDownLoaderFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0C598E9F4BA4965CF0667A4A37E159 /* XMGDownLoaderFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,43 +39,43 @@
 /* Begin PBXFileReference section */
 		0671A5BB7A9C71A21D30EE3FF1F42D03 /* Pods-XMGDownLoad_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMGDownLoad_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0B52772241D5FC46E79F6ACD8C3A03DE /* Pods-XMGDownLoad_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMGDownLoad_Example-dummy.m"; sourceTree = "<group>"; };
+		0FFC6DF26B4FEBDCB33890765F5E20A6 /* XMGDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoader.m; sourceTree = "<group>"; };
 		16A85C46A884666D24C1CE893737372B /* Pods-XMGDownLoad_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMGDownLoad_Tests-resources.sh"; sourceTree = "<group>"; };
 		22BABD5264536E98997FC457EDEF0926 /* XMGDownLoad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMGDownLoad.xcconfig; sourceTree = "<group>"; };
 		2A78F8BCAAADA1A3B0A5EFED0DB0C61E /* Pods-XMGDownLoad_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMGDownLoad_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C549F411BE3C229D53B7B3B1C0EA3DB /* XMGDownLoad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMGDownLoad-prefix.pch"; sourceTree = "<group>"; };
-		2CBB2C37E6C62B20B6DE98F9C2430A2F /* Pods-XMGDownLoad_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XMGDownLoad_Example.modulemap"; sourceTree = "<group>"; };
+		2CBB2C37E6C62B20B6DE98F9C2430A2F /* Pods-XMGDownLoad_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XMGDownLoad_Example.modulemap"; sourceTree = "<group>"; };
 		3167D2E5DE5FEEDBFF6643665644FBEE /* Pods-XMGDownLoad_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMGDownLoad_Example-resources.sh"; sourceTree = "<group>"; };
-		4F37D0815C5410D05E15341FAE21E0A0 /* XMGDownLoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMGDownLoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F37D0815C5410D05E15341FAE21E0A0 /* XMGDownLoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMGDownLoad.framework; path = XMGDownLoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6DD910CA54753223B4E2E999B0B1C1 /* Pods-XMGDownLoad_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMGDownLoad_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5E3FD413A05DFA71C2E09677620DD5E8 /* Pods_XMGDownLoad_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMGDownLoad_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3FD413A05DFA71C2E09677620DD5E8 /* Pods_XMGDownLoad_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMGDownLoad_Example.framework; path = "Pods-XMGDownLoad_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		671BAE9D61C0259701E2156EB701F8FB /* Pods-XMGDownLoad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMGDownLoad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F769576EFC2827B9B9835A622E29E2C /* Pods-XMGDownLoad_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMGDownLoad_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6FEFC393E8EBE2F15DD76A27F9874421 /* XMGDownLoad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMGDownLoad-dummy.m"; sourceTree = "<group>"; };
-		71B64C17872FD0626151C91B3E98EC2E /* Pods-XMGDownLoad_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XMGDownLoad_Tests.modulemap"; sourceTree = "<group>"; };
+		71B64C17872FD0626151C91B3E98EC2E /* Pods-XMGDownLoad_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XMGDownLoad_Tests.modulemap"; sourceTree = "<group>"; };
 		77E1FEF93F596EF4A1AC47304419D37B /* Pods-XMGDownLoad_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMGDownLoad_Tests-dummy.m"; sourceTree = "<group>"; };
 		7ADA6A18046D3827A157D0D0065287D9 /* XMGDownLoad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMGDownLoad-umbrella.h"; sourceTree = "<group>"; };
 		7C51D5F2F4B744A08A60A5A80BE78411 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		847909B1D8C29CBD47597A40F3DDAE8E /* XMGDownLoad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XMGDownLoad.modulemap; sourceTree = "<group>"; };
+		847909B1D8C29CBD47597A40F3DDAE8E /* XMGDownLoad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XMGDownLoad.modulemap; sourceTree = "<group>"; };
 		8DD1DDA5B39CD48B8302F22742AACDBE /* Pods-XMGDownLoad_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMGDownLoad_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E1D2117CE97F6D202056583BCAF8470 /* Pods_XMGDownLoad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMGDownLoad_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E1D2117CE97F6D202056583BCAF8470 /* Pods_XMGDownLoad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMGDownLoad_Tests.framework; path = "Pods-XMGDownLoad_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97745CCC06C2FFE5FFCC9900ED6F5E68 /* XMGDownLoadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoadManager.m; sourceTree = "<group>"; };
+		A10BA193C221F8EB068F79ECEF493385 /* XMGDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGDownLoader.h; sourceTree = "<group>"; };
 		B1113BAAC7FA84A74F3ED6B990C4F3E3 /* Pods-XMGDownLoad_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMGDownLoad_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B3CD31968CD52F8DB6A5F13988717292 /* XMGDownLoaderFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoaderFileTool.m; sourceTree = "<group>"; };
 		B88A3674129DC82107EFD5E0052EADB4 /* Pods-XMGDownLoad_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMGDownLoad_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BC8573B61F376A0500CB5D75 /* NSString+XMGDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMGDownLoader.h"; sourceTree = "<group>"; };
-		BC8573B71F376A0500CB5D75 /* NSString+XMGDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMGDownLoader.m"; sourceTree = "<group>"; };
-		BC8573B81F376A0500CB5D75 /* XMGDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDownLoader.h; sourceTree = "<group>"; };
-		BC8573B91F376A0500CB5D75 /* XMGDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoader.m; sourceTree = "<group>"; };
-		BC8573BA1F376A0500CB5D75 /* XMGDownLoaderFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDownLoaderFileTool.h; sourceTree = "<group>"; };
-		BC8573BB1F376A0500CB5D75 /* XMGDownLoaderFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoaderFileTool.m; sourceTree = "<group>"; };
-		BC8573BC1F376A0500CB5D75 /* XMGDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDownLoadManager.h; sourceTree = "<group>"; };
-		BC8573BD1F376A0500CB5D75 /* XMGDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDownLoadManager.m; sourceTree = "<group>"; };
 		C4FDF9173761CA2E543157EAF21AC2E6 /* Pods-XMGDownLoad_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMGDownLoad_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE688DFC65FCF2A8145EC951F0736464 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3AFF09EB780F8F29FC791CAE8CEDF72 /* Pods-XMGDownLoad_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMGDownLoad_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D486D32682159AF3994BC8EB025186A3 /* Pods-XMGDownLoad_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMGDownLoad_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D673501F400D1F6EF214033FF01DBB6C /* NSString+XMGDownLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XMGDownLoader.h"; sourceTree = "<group>"; };
 		D7D15BE338146745BDABDD43621D92F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE598BF73BA0CA158245D1CE03130263 /* Pods-XMGDownLoad_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMGDownLoad_Example-umbrella.h"; sourceTree = "<group>"; };
+		EA0C598E9F4BA4965CF0667A4A37E159 /* XMGDownLoaderFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGDownLoaderFileTool.h; sourceTree = "<group>"; };
+		F1DA1E11A2F01FCD213015EE500D5458 /* XMGDownLoadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGDownLoadManager.h; sourceTree = "<group>"; };
+		FBAED5232C62FFC3C5747B5D54C7D35A /* NSString+XMGDownLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMGDownLoader.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,19 +106,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		121FBAABB23AF0623FBDE4AD4F5341C9 /* Classes */ = {
+		0C0E33502F29BC0BF435636F741129EA /* XMGDownLoad */ = {
 			isa = PBXGroup;
 			children = (
-				BC8573B61F376A0500CB5D75 /* NSString+XMGDownLoader.h */,
-				BC8573B71F376A0500CB5D75 /* NSString+XMGDownLoader.m */,
-				BC8573B81F376A0500CB5D75 /* XMGDownLoader.h */,
-				BC8573B91F376A0500CB5D75 /* XMGDownLoader.m */,
-				BC8573BA1F376A0500CB5D75 /* XMGDownLoaderFileTool.h */,
-				BC8573BB1F376A0500CB5D75 /* XMGDownLoaderFileTool.m */,
-				BC8573BC1F376A0500CB5D75 /* XMGDownLoadManager.h */,
-				BC8573BD1F376A0500CB5D75 /* XMGDownLoadManager.m */,
+				DE342B40692A8B7DCE164D29E151026C /* Classes */,
 			);
-			path = Classes;
+			name = XMGDownLoad;
+			path = XMGDownLoad;
 			sourceTree = "<group>";
 		};
 		35DEE8193F99F4512271A17C961DA603 /* Pods-XMGDownLoad_Tests */ = {
@@ -143,18 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				F9A9F76038B830A9EDD5B061C3A8FF2F /* Support Files */,
-				57512560AC28376C71B39722C474138D /* XMGDownLoad */,
+				0C0E33502F29BC0BF435636F741129EA /* XMGDownLoad */,
 			);
 			name = XMGDownLoad;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		57512560AC28376C71B39722C474138D /* XMGDownLoad */ = {
-			isa = PBXGroup;
-			children = (
-				121FBAABB23AF0623FBDE4AD4F5341C9 /* Classes */,
-			);
-			path = XMGDownLoad;
 			sourceTree = "<group>";
 		};
 		7ADD1CE9996921897F37E053438E91D6 /* Products */ = {
@@ -220,6 +206,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		DE342B40692A8B7DCE164D29E151026C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D673501F400D1F6EF214033FF01DBB6C /* NSString+XMGDownLoader.h */,
+				FBAED5232C62FFC3C5747B5D54C7D35A /* NSString+XMGDownLoader.m */,
+				A10BA193C221F8EB068F79ECEF493385 /* XMGDownLoader.h */,
+				0FFC6DF26B4FEBDCB33890765F5E20A6 /* XMGDownLoader.m */,
+				EA0C598E9F4BA4965CF0667A4A37E159 /* XMGDownLoaderFileTool.h */,
+				B3CD31968CD52F8DB6A5F13988717292 /* XMGDownLoaderFileTool.m */,
+				F1DA1E11A2F01FCD213015EE500D5458 /* XMGDownLoadManager.h */,
+				97745CCC06C2FFE5FFCC9900ED6F5E68 /* XMGDownLoadManager.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		ED0731BB50E51E515ABE9CD854A37BC5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,11 +248,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4F8E5F065077172E1D93BF07CB4661C6 /* Headers */ = {
+		2FB0C3643F63A7963EB10C5A4E82EA6B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				646DFEEE509E9F97D784F7374DC348B9 /* XMGDownLoad-umbrella.h in Headers */,
+				345B30CD29EFA4CDEEE7D4634FF0657E /* NSString+XMGDownLoader.h in Headers */,
+				41A0EB9970B1C01E3CDE180027499794 /* XMGDownLoad-umbrella.h in Headers */,
+				8503B9AB5AA611997BAB4F67C018FDAB /* XMGDownLoader.h in Headers */,
+				E296378F2AB091A982D7608F2B6F6355 /* XMGDownLoaderFileTool.h in Headers */,
+				3B0F7BE298AE746C58BE5C082640F635 /* XMGDownLoadManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +272,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8573C01F376A0500CB5D75 /* XMGDownLoader.h in Headers */,
-				BC8573BE1F376A0500CB5D75 /* NSString+XMGDownLoader.h in Headers */,
-				BC8573C21F376A0500CB5D75 /* XMGDownLoaderFileTool.h in Headers */,
-				BC8573C41F376A0500CB5D75 /* XMGDownLoadManager.h in Headers */,
 				18972999F63B2061A694E3314E6A8477 /* Pods-XMGDownLoad_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,9 +283,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8015C6F866009F69A3A5C758F5C3D47 /* Build configuration list for PBXNativeTarget "XMGDownLoad" */;
 			buildPhases = (
-				256C69FE0FCAA02F5BCF7D05D05F2645 /* Sources */,
+				CFC1BCA568844872199C40C6F45D0E50 /* Sources */,
 				F43EAB41C2811BBA5481316386760575 /* Frameworks */,
-				4F8E5F065077172E1D93BF07CB4661C6 /* Headers */,
+				2FB0C3643F63A7963EB10C5A4E82EA6B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -358,23 +360,23 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		256C69FE0FCAA02F5BCF7D05D05F2645 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C3E317B1FD6E6546EF2C5EFDD8FE11A /* XMGDownLoad-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B29C032B7BA4E1DE49B8EAB492C68400 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC8573C11F376A0500CB5D75 /* XMGDownLoader.m in Sources */,
 				8CCD337D4CDBB1E8F5647AFB756C3DC9 /* Pods-XMGDownLoad_Example-dummy.m in Sources */,
-				BC8573BF1F376A0500CB5D75 /* NSString+XMGDownLoader.m in Sources */,
-				BC8573C51F376A0500CB5D75 /* XMGDownLoadManager.m in Sources */,
-				BC8573C31F376A0500CB5D75 /* XMGDownLoaderFileTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC1BCA568844872199C40C6F45D0E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CC5A7B4258165180A953B27CCA4364 /* NSString+XMGDownLoader.m in Sources */,
+				382C3AF8DC6348464CC731AA32C1DF60 /* XMGDownLoad-dummy.m in Sources */,
+				C4915465A191F6A9818F6EE266A963D0 /* XMGDownLoader.m in Sources */,
+				9545535B0FC54619D87D393387AF2490 /* XMGDownLoaderFileTool.m in Sources */,
+				C7369E17D3657BEB7430F6A207A5D35F /* XMGDownLoadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

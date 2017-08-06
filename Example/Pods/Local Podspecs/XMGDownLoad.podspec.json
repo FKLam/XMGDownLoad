@@ -1,9 +1,9 @@
 {
   "name": "XMGDownLoad",
   "version": "0.1.0",
-  "summary": "A short description of XMGDownLoad.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lfk0120@163.com/XMGDownLoad",
+  "summary": "XMGDownLoad.",
+  "description": "下载器，XMGDownLoad",
+  "homepage": "https://github.com/FKLam/XMGDownLoad",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "lfk0120@163.com": "lfkun@aoyuan.net"
   },
   "source": {
-    "git": "https://github.com/lfk0120@163.com/XMGDownLoad.git",
+    "git": "https://github.com/FKLam/XMGDownLoad.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "NSString+XMGDownLoader.h"
+#import "XMGDownLoader.h"
+#import "XMGDownLoaderFileTool.h"
+#import "XMGDownLoadManager.h"
 
 FOUNDATION_EXPORT double XMGDownLoadVersionNumber;
 FOUNDATION_EXPORT const unsigned char XMGDownLoadVersionString[];
