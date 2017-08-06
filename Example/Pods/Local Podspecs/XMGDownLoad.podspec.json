@@ -1,0 +1,22 @@
+{
+  "name": "XMGDownLoad",
+  "version": "0.1.0",
+  "summary": "A short description of XMGDownLoad.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lfk0120@163.com/XMGDownLoad",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lfk0120@163.com": "lfkun@aoyuan.net"
+  },
+  "source": {
+    "git": "https://github.com/lfk0120@163.com/XMGDownLoad.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XMGDownLoad/Classes/**/*"
+}

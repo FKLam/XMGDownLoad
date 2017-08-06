@@ -1,0 +1,6 @@
+framework module XMGDownLoad {
+  umbrella header "XMGDownLoad-umbrella.h"
+
+  export *
+  module * { export * }
+}
