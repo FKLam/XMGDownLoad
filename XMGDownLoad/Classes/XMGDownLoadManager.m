@@ -137,7 +137,7 @@ static XMGDownLoadManager *_shareInstance;
 }
 
 - (void)resumeAll {
-    
+    [[self.downLoadInfo allValues] makeObjectsPerformSelector:@selector(resume)];
 }
 
 @end
